@@ -107,7 +107,7 @@ class PaymentController extends Controller
             // CURLOPT_POSTFIELDS => $data_string,
             CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',  
-            "Authorization: Bearer FLWSECK-f2ad6a2d491be27acd3a5bef0299d783-18ad4fefe9avt-X"
+            "Authorization: "
             ),
         ));
 
